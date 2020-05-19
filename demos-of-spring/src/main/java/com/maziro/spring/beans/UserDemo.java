@@ -6,6 +6,9 @@ public class UserDemo {
 	private String account;
 	private Integer age;
 
+	public UserDemo() {
+	}
+
 	public String getUserName() {
 		return userName;
 	}
@@ -31,6 +34,6 @@ public class UserDemo {
 	}
 
 	public String getUserInfo() {
-		return String.format(userName, ", ", account, ", ", age);
+		return userName + ", " + account + ", " + age;
 	}
 }
