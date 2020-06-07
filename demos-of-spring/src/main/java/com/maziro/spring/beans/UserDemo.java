@@ -33,7 +33,12 @@ public class UserDemo {
 		this.age = age;
 	}
 
-	public String getUserInfo() {
-		return userName + ", " + account + ", " + age;
+	@Override
+	public String toString() {
+		return "UserDemo{" +
+				"userName='" + userName + '\'' +
+				", account='" + account + '\'' +
+				", age=" + age +
+				'}';
 	}
 }
