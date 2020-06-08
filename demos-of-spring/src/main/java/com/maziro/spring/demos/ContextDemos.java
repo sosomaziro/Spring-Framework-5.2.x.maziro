@@ -25,6 +25,6 @@ public class ContextDemos {
 		userDemo.setUserName("so");
 		userDemo.setAge(18);
 		userDemo.setAccount("123");
-		System.out.println(userDemo.getUserInfo());
+		System.out.println(userDemo);
 	}
 }
