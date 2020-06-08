@@ -41,6 +41,16 @@ import org.springframework.util.ResourceUtils;
  */
 public interface ResourceLoader {
 
+	/**
+	 * 主要子类
+	 * DefaultResourceLoader
+	 *  - FileSystemResourceLoader
+	 *  - ClassRelativeResourceLoader
+	 *
+	 * ResourcePatternResolver
+	 * 	- PathMatchingResourcePatternResolver
+	 */
+
 	/** Pseudo URL prefix for loading from the class path: "classpath:". */
 	String CLASSPATH_URL_PREFIX = ResourceUtils.CLASSPATH_URL_PREFIX;
 
